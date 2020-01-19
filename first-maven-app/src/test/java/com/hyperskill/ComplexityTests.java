@@ -13,7 +13,7 @@ public class ComplexityTests
     public void testSeveralVowelsInRow()
     {
         double complexity = WordComplexity.getWordComplexity("aaā"); // Seems it takes any vowel as syllable counter
-        assertEquals( 1, complexity, 0.001 );
+        assertEquals( 0, complexity, 0.001 );
     }
 
     @Test

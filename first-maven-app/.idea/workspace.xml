@@ -181,7 +181,7 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.ComplexityTests.testSeveralVowelsInRow">
-    <configuration name="ComplexityTests.testNoLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComplexityTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="first-maven-app" />
       <extension name="coverage">
         <pattern>
@@ -191,8 +191,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hyperskill" />
       <option name="MAIN_CLASS_NAME" value="com.hyperskill.ComplexityTests" />
-      <option name="METHOD_NAME" value="testNoLetters" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -264,10 +263,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ComplexityTests.testSeveralVowelsInRow" />
+        <item itemvalue="JUnit.ComplexityTests" />
         <item itemvalue="JUnit.ComplexityTests.testSeveralVowelsInSyllable" />
         <item itemvalue="JUnit.ComplexityTests.testSyllableNoRLetter" />
         <item itemvalue="JUnit.ComplexityTests.testWithSpaces" />
-        <item itemvalue="JUnit.ComplexityTests.testNoLetters" />
       </list>
     </recent_temporary>
   </component>
