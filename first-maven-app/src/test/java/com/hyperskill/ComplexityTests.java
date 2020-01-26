@@ -87,6 +87,18 @@ public class ComplexityTests
         assertEquals( 3.5, complexity, 0.001 );
     }
 
+    @Test
+    public void testWithcoma()
+    {
+        double complexity = WordComplexity.getWordComplexity("ABC,");
+        assertEquals( 3.5, complexity, 0.001 );
+    }
 
+    @Test
+    public void testWithnovowels()
+    {
+        double complexity = WordComplexity.getWordComplexity("Bbbbbb");
+        assertEquals( 0, complexity, 0.001 );
+    }
 
 }
